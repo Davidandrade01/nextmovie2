@@ -1,12 +1,12 @@
-.home_container{
+.daily{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
-  }
+}
 
-  .title{
-    margin-right: 4em;
-  }
+.title{
+  margin-right: 4em;
+ }
