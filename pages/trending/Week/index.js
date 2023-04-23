@@ -16,6 +16,7 @@ export async function getStaticProps(){
 }
 
 export default function Weekranking({weekly}){
+    console.log(weekly)
     return(
         <div>
                 

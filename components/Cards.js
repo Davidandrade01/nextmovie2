@@ -15,7 +15,7 @@ export default function Cards ({movie}){
                 <h1 className={styles.cards_titles}>{movie.title}</h1>
                  <p className={styles.cards_paragraph}><FaStar className={styles.cards_icons}/> {movie.vote_average.toFixed(1)}</p>
                  <p className={styles.cards_paragraph}><FaRegCalendarAlt className={styles.cards_icons}/> {movie.release_date}</p>
-                 <Link className={styles.cards_btn} href={`/trending/detailId=${movie.title}`}>Details</Link>
+                 
                 
             </div>
         
